@@ -14,4 +14,9 @@ jobs:
       - run: ls -la
       - run: pwd
       - run: env
+      - uses:
+        - uses: actions/checkout@v4
+          with:
+            sparse-checkout:
+              ravizza
  
