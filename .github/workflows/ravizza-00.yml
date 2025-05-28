@@ -9,4 +9,9 @@ jobs:
       - run: echo "Io sono Patrick"
       - run: python --version
       - run: ifconfing
-      - run: pip --version 
+      - run: pip --version
+      - run: lsb_release -d 
+      - run: ls -la
+      - run: pwd
+      - run: env
+ 
