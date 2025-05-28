@@ -7,3 +7,6 @@ jobs:
     steps: 
       - run: echo "ciao sono una stringa"
       - run: echo "Io sono Patrick"
+      - run: python --version
+      - run: ifconfing
+      - run: pip --version 
