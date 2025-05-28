@@ -1,0 +1,9 @@
+name: Action di Ravizza
+on:
+  push:
+jobs:
+  ciao: 
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "ciao sono una stringa"
+      - run: echo "Io sono Patrick"
