@@ -25,4 +25,6 @@ jobs:
       - run: pip install pandas scikit-learn numpy matplotlib joblib
       - run: python ml_supervised.py
         working-directory: ravizza
- 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: myArtifact
