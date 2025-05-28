@@ -8,7 +8,7 @@ jobs:
       - run: echo "ciao sono una stringa"
       - run: echo "Io sono Patrick"
       - run: python --version
-      - run: ifconfing
+      - run: ifconfig
       - run: pip --version
       - run: lsb_release -d 
       - run: ls -la
