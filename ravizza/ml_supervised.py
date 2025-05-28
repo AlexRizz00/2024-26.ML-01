@@ -178,3 +178,10 @@ disp = ConfusionMatrixDisplay(confusion_matrix=cm)
 disp.plot()
 
 """Si nota che la differenza tra il Modello Normale e il Modello Ottimizzato è risibile per la semplicità del nostro Modello (4 Target e una classificazione Binaria da predirre)"""
+
+"""Salvo e scarico il modello perfezionato"""
+
+from joblib import dump, load
+
+dump(best_model, 'best_model.pkl')  # Save
+model = load('best_model.pkl')  # Load
