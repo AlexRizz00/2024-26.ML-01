@@ -19,4 +19,10 @@ jobs:
           with:
             sparse-checkout:
               ravizza
+      - run: ls -la
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install pandas sklearn numpy
+      - run: python ml_supervised
  
